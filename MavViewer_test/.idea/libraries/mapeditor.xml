@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mapeditor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/mapeditor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,202 @@
+import oracle.lbs.mapclient.MapViewer;
+import oracle.mapviewer.share.style.ColorStyleModel;
+
+import java.awt.*;
+
+/**
+ * Created by gsv on 22.10.2015.
+ */
+public class MapControl {
+    //private static final Logger logger = LoggerFactory getLogger(MapControl.class);
+
+    private ImagePanel mapPanel;
+    public MapViewer mv;
+    private String mapServerName;
+    private String mapDataSorce;
+    private String baseMapName;
+    private String mapTitle;
+    private static Dimension dimensionOutputSize = new Dimension(200, 200);
+
+    // для начальной карты
+    private String queryBaseTable; // таблица из которой берутся данные
+    private String queryBaseColumn; // столбец с геоданными из базовой таблицы
+    private StringBuilder queryFromBasicData; //
+    private String BaseSRID; //
+
+    MapControl(ImagePanel inMapPanel) {
+        mapPanel = inMapPanel;
+        // базовые настройки
+        mapServerName = "http://airsm-test-app.grfc.rf:9001/mapviewer/omserver";
+        mapDataSorce = "GEO";
+        baseMapName = "EMPTY_MAP";
+        mapTitle = "mapControl";
+        queryBaseTable = "MAP_DISTRICT";
+        queryBaseColumn = "geometry";
+        queryFromBasicData = new StringBuilder();
+        BaseSRID = "8307";
+
+
+        setupBaseMapParametrs();
+        setOutputSize(500, 500);
+        setDefColorStyleModel();
+    }
+
+    public boolean setupBaseMapParametrs() {
+        try {
+            mv = new MapViewer(mapServerName); // Сервер куда подключаемся
+            mv.setDataSourceName(mapDataSorce); // Источник данных для карты. Настраивается через серверное приложение MapViewer в настройках DataSource
+            mv.setBaseMapName(baseMapName); // Базовая карта. Настраивается через MapBuilder (подложка)
+            if (mapTitle.isEmpty())
+                mv.setMapTitle(mapTitle); // Заголовок прямо на карте
+            mv.setAntiAliasing(true);
+            queryFromBasicData.delete(0, queryFromBasicData.length());
+            queryFromBasicData.append("select ").append(queryBaseColumn).append(" from ").append(queryBaseTable); // Базовый запроса
+            //mv.addJDBCTheme(mapDataSorce, queryBaseTable, queryFromBasicData.toString(), queryBaseColumn, BaseSRID, "C.RED", null, null, false); // установка доступа
+            mv.setImageFormat(MapViewer.FORMAT_RAW_COMPRESSED); // формат нужен для передачи изображения в Image
+
+
+            // test
+            //mv.setBaseMapName("GEO_OBJECT");
+            //mv.addJDBCTheme("GEO", "geo_object",  "select geometry from geo_object where g.id$ between 1291949 and 1291977", "geometry", "4200", "M.STAR", null, null, false);
+
+           //mv.addJDBCTheme("GEO", "MAP_DISTRICT", "select geometry from MAP_DISTRICT", "geometry", "8307", "C.RED", null, null, false);
+            //mv.addJDBCTheme("GEO", "geo_object",  "select geometry from geo_object where id$ between 1241949 and 1291977", "geometry", "4200", "M.B_ST", null, null, false);
+            //mv.addJDBCTheme("GEO", "geo_object1",  "select geometry from geo_object where id$ between 1291949 and 1291977", "geometry", "4200", "M.NEW_MARKER_STYLE", null, null, false);
+
+
+            StringBuilder sb = new StringBuilder();
+            sb.append("select geometry from MAP_DISTRICT where upper(name) Like");
+            sb.append("\'%ДМИТРО%\'");
+            mv.addJDBCTheme("GEO", "Test_short", sb.toString() , "geometry", "8307", "C.RED", null, null, false);
+
+        } catch (Exception ex) {
+            //logger.error("Exception: ", ex);
+            return false;
+        }
+        return true;
+    }
+
+    private void setDefColorStyleModel() {
+        ColorStyleModel csm = new ColorStyleModel();
+        csm.setFillColor(new Color(255, 0, 0, 100));
+        csm.setStrokeColor(new Color(0, 0, 255, 100));
+        mv.addStyle("my_color", csm);
+    }
+
+    private boolean work() {
+        try {
+            mv.run();
+        } catch (Exception e) {
+            //logger.error("Exception: ", ex);
+            e.printStackTrace();
+            return false;
+        }
+        return true;
+    }
+
+    public boolean run() {
+        if (work()) {
+            mapPanel.setImage(mv.getGeneratedMapImage());
+            mapPanel.repaint();
+            return true;
+        } else
+            return false;
+    }
+
+
+    public boolean setCenterAndSize(double latitude, double longitude, double zoom) {
+        if (latitude > 90 || latitude < -90 || longitude < -180 || longitude > 180)
+            return false;
+        else
+            mv.setCenterAndSize(latitude, longitude, zoom);
+        return true;
+    }
+
+    public boolean setCenter(double latitude, double longitude) {
+        if(longitude > 180)
+            longitude -=180;
+        if(latitude > 90)
+            latitude -=90;
+
+        if (latitude > 90 || latitude < -90 || longitude < -180 || longitude > 180)
+            return false;
+        else
+            mv.setCenter(latitude, longitude);
+        return true;
+    }
+
+    public boolean setOutputSize(Integer width, Integer height) {
+        if (width <= 5 || height <= 5)
+            return false;
+        else {
+            dimensionOutputSize.setSize(width, height);
+            mv.setDeviceSize(dimensionOutputSize);
+        }
+        return true;
+    }
+
+    public ImagePanel getMapPanel() {
+        return mapPanel;
+    }
+
+    public void setMapPanel(ImagePanel mapPanel) {
+        this.mapPanel = mapPanel;
+    }
+
+    public String getMapDataSorce() {
+        return mapDataSorce;
+    }
+
+    public void setMapDataSorce(String mapDataSorce) {
+        this.mapDataSorce = mapDataSorce;
+    }
+
+    public String getBaseMapName() {
+        return baseMapName;
+    }
+
+    public void setBaseMapName(String baseMapName) {
+        this.baseMapName = baseMapName;
+    }
+
+    public String getMapServerName() {
+        return mapServerName;
+    }
+
+    public void setMapServerName(String mapServerName) {
+        this.mapServerName = mapServerName;
+    }
+
+    public String getMapTitle() {
+        return mapTitle;
+    }
+
+    public void setMapTitle(String mapTitle) {
+        this.mapTitle = mapTitle;
+    }
+
+    public String getQueryBaseTable() {
+        return queryBaseTable;
+    }
+
+    public void setQueryBaseTable(String queryBaseTable) {
+        this.queryBaseTable = queryBaseTable;
+    }
+
+    public String getQueryBaseColumn() {
+        return queryBaseColumn;
+    }
+
+    public void setQueryBaseColumn(String queryBaseColumn) {
+        this.queryBaseColumn = queryBaseColumn;
+    }
+
+    public String getBaseSRID() {
+        return BaseSRID;
+    }
+
+    public void setBaseSRID(String baseSRID) {
+        BaseSRID = baseSRID;
+    }
+
+}

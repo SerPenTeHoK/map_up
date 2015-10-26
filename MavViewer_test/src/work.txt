@@ -1,0 +1,72 @@
+/**
+ * Created by gsv on 19.10.2015.
+ */
+
+import javax.swing.*;
+import oracle.lbs.mapclient.MapViewer;
+import oracle.lbs.mapclient.*;
+import oracle.mapviewer.share.*;
+import oracle.mapviewer.share.style.ColorStyleModel;
+
+import java.awt.*;
+
+
+public class test {
+
+
+    private JPanel p1;
+    private JButton button1;
+    private JPanel mp;
+
+    private static MapViewer mv;
+    java.awt.Image getGeneratedMapImage;
+    String getGeneratedMapImageURL;
+
+
+
+    public static void main(String[] args) throws Exception {
+        JFrame frame = new JFrame("test");
+        frame.setContentPane(new test().p1);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+
+        mv = new MapViewer("http://airsm-test-app.grfc.rf:9001/mapviewer/omserver");
+        mv.setDataSourceName("GEO");
+        //mv.setDataSourceName("mvdemo"); // +
+        mv.setBaseMapName("DISTRICT"); // +
+        mv.setMapTitle("Test java");
+        mv.setAntiAliasing(true);
+       // mv.setBackgroundColor(new Color(1, 200, 100,100)); // +
+        mv.setImageFormat(MapViewer.FORMAT_PNG_URL);
+        mv.setCenterAndSize(56.3263888888889, 37.500277777777, 10.0); // +
+        mv.setDeviceSize(new Dimension(600, 475));
+        mv.addJDBCTheme("GEO", "MAP_DISTRICT",  "select geometry from MAP_DISTRICT", "geometry", "8307", "C.RED", null, null, false);
+        //mv.addJDBCTheme("mvdemo", "MAP_DISTRICT",  "select geometry from MAP_DISTRICT", "geometry", "8307", "C.RED", null, null, false);
+
+
+        mv.setBaseMapName("DISTRICT"); // +
+
+        ColorStyleModel csm = new ColorStyleModel();
+        csm.setFillColor(new Color(255, 0, 0, 100));
+        csm.setStrokeColor(new Color(0, 0, 255, 100));
+        mv.addStyle("my_color", csm);//mv.addPredefinedTheme("Them"); // ????
+        try {
+            mv.run();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        //mv.pan(20,20);
+        //mv.zoomIn(5);
+
+        Image getGeneratedMapImage = mv.getGeneratedMapImage();
+        //mv.getGeneratedMapImageURL();
+        String mapstr = mv.getGeneratedMapImageURL();
+
+        frame.setTitle(mapstr);
+
+        frame.imageUpdate(getGeneratedMapImage,1,1,1,200,200);
+
+
+    }
+}
