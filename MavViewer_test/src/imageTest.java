@@ -18,9 +18,10 @@ import java.io.IOException;
 
 public class imageTest {
     private static MapViewer mv;
-    private static JButton button1;
+    //private static JButton button1;
     private static JFrame f;
     private static ImagePanel pp;
+    public static JButton button1;
 
     public imageTest() {
         button1.addActionListener(new ActionListener() {

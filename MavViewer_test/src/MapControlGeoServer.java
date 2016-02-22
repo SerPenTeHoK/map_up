@@ -24,6 +24,12 @@ public class MapControlGeoServer {
     private String mapTitle;
     private static Dimension dimensionOutputSize = new Dimension(200, 200);
 
+    // что нам понадобится
+    // 1) Подложка - основная карта
+    // 2) Выборка по критериям и тут объединение слоев
+    // 3) Разные способы задания запрос URL и XML
+    // 4) Потом надо сделать проверку на невозможность запроса слоев которых нет
+
     // для начальной карты
     private String queryBaseTable; // таблица из которой берутся данные
     private String queryBaseColumn; // столбец с геоданными из базовой таблицы
