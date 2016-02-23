@@ -3,12 +3,17 @@
  */
 
 
+import org.jdom.Element;
+import sun.misc.IOUtils;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.Point2D;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 
 public class MapControlGeoServer {
@@ -37,6 +42,9 @@ public class MapControlGeoServer {
     private String BaseSRID; // SRID
 
     Point startMousePoint;
+                            //"http://localhost:8080/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&width=344&height=500&srs=EPSG:4326&x=1&y=1";
+    private String getMap = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";
+    private String getFeature = "http://localhost:8080/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typenames=sf:bugsites&filter=%3Cfes:Filter%20xmlns:fes=%22http://www.opengis.net/fes/2.0%22%3E%3Cfes:ResourceId%20rid=%22bugsites.3%22/%3E%3C/fes:Filter%3E";
 
     MapControlGeoServer(ImagePanel inMapPanel) {
         mapPanel = inMapPanel;
@@ -62,6 +70,37 @@ public class MapControlGeoServer {
         mapPanel.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
+
+                //getMap = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";;
+                getMap = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
+                work();
+                /*
+                //String urlStr = getFeature;
+                String urlStr = "http://localhost:8080/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&width=344&height=500&srs=EPSG:4326&x=1&y=1";
+                URL url = null;
+                HttpURLConnection conn = null;
+                try {
+                    url = new URL(urlStr);
+                    conn = null;
+
+                    conn = (HttpURLConnection) url.openConnection();
+
+
+                    if (conn.getResponseCode() != 200) {
+                        throw new IOException(conn.getResponseMessage());
+                    }
+
+                    Element pb = JDOMBuilder.buildElement(conn.toString());
+                    InputStream is = conn.getInputStream();
+                    System.out.printf(is.toString());
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                } finally {
+                    conn.disconnect();
+
+                }
+                */
+
 
             }
 
@@ -279,7 +318,9 @@ public class MapControlGeoServer {
 
     private boolean work() {
         try {
-            String urlStr = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";
+            //String urlStr = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=500&height=500&srs=EPSG:4326";
+            //String urlStr = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";
+            String urlStr = getMap;
             URL url = new URL(urlStr);
             HttpURLConnection conn =
                     (HttpURLConnection) url.openConnection();
