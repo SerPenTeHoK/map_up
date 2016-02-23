@@ -43,8 +43,9 @@ public class MapControlGeoServer {
 
     Point startMousePoint;
                             //"http://localhost:8080/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&width=344&height=500&srs=EPSG:4326&x=1&y=1";
-    private String getMap = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";
-    private String getFeature = "http://localhost:8080/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typenames=sf:bugsites&filter=%3Cfes:Filter%20xmlns:fes=%22http://www.opengis.net/fes/2.0%22%3E%3Cfes:ResourceId%20rid=%22bugsites.3%22/%3E%3C/fes:Filter%3E";
+    private String getMap = "http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";
+                          //"http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
+    private String getFeature = "http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
 
     MapControlGeoServer(ImagePanel inMapPanel) {
         mapPanel = inMapPanel;
@@ -72,7 +73,7 @@ public class MapControlGeoServer {
             public void mouseClicked(MouseEvent e) {
 
                 //getMap = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";;
-                getMap = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
+                getMap = getFeature;
                 work();
                 /*
                 //String urlStr = getFeature;
