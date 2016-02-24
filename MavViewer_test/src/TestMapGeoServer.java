@@ -70,6 +70,8 @@ public class TestMapGeoServer {
 
         imagePanel = new ImagePanel();
         panel_Work.add(imagePanel);
+        panel_Work.setSize(350, 500);
+        imagePanel.setSize(350, 500);
 
         button1.addActionListener(new ActionListener() {
             @Override
@@ -128,7 +130,7 @@ public class TestMapGeoServer {
                     //mapControl.mv.setThemeEnabled(true, "geo_object2");
                     button3.setText("Disable");
                 }
-                mapControl.run();
+                //mapControl.run();
             }
         });
         button4.addActionListener(new ActionListener() {
@@ -138,7 +140,7 @@ public class TestMapGeoServer {
 
                 //mapControl.mv.addPointFeature(45.0, 56.0, 4200, "M.B_ST", "Точка", null, null, null, true);
                 //mapControl.mv.addPointFeature(36.0, 53.0, 4200, "M.B_ST", "Точка", null, mask, null, true);
-                mapControl.run();
+                //mapControl.run();
             }
         });
 
@@ -147,7 +149,7 @@ public class TestMapGeoServer {
             public void actionPerformed(ActionEvent e) {
                 double[][] polly = new double[][]{{36.0,53.0},{36.5,53.0}, {37.0,54.0}, {36.0,53.0}};
                 //mapControl.mv.addPolygonFeature("pol name", polly, 4200, "M.B_ST", "Полигонище", null, true);
-                mapControl.run();
+                //mapControl.run();
             }
         });
     }

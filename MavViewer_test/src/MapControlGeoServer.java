@@ -16,6 +16,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import static java.lang.Thread.sleep;
+
 public class MapControlGeoServer {
 
     //private static final Logger logger = LoggerFactory getLogger(MapControl.class);
@@ -42,12 +44,14 @@ public class MapControlGeoServer {
     private String BaseSRID; // SRID
 
     Point startMousePoint;
-                            //"http://localhost:8080/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&width=344&height=500&srs=EPSG:4326&x=1&y=1";
-                            //"http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";
-    private String getMap = "http://localhost:8080/geoserver_war/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";
-                          //"http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
-                            //"http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
-    private String getFeature = "http://localhost:8080/geoserver_war/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
+    private String getMap =
+    //"http://localhost:8080/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&width=344&height=500&srs=EPSG:4326&x=1&y=1";
+    "http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=350&height=500&srs=EPSG:4326";
+    //"http://localhost:8080/geoserver_war/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";
+    private String getFeature =
+    //"http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
+    "http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=350&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
+    //"http://localhost:8080/geoserver_war/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";
 
     MapControlGeoServer(ImagePanel inMapPanel) {
         mapPanel = inMapPanel;
@@ -66,6 +70,9 @@ public class MapControlGeoServer {
         setOutputSize(500, 500);
         setDefColorStyleModel();
         setMapImageControl();
+
+        mapPanel.setSize(500,500);
+        mapPanel.repaint();
     }
 
     private void setMapImageControl()
@@ -76,11 +83,21 @@ public class MapControlGeoServer {
 
                 //getMap = "http://localhost:8080/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks,tiger:tiger_roads&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326";;
 
-                if (e.isShiftDown()) {
-                    getMap = "http://localhost:8080/geoserver_war/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-75.05,39.68,-72.91,41.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";//getFeature;
+                try {
+                    sleep(10);
+                } catch (InterruptedException e1) {
+                    e1.printStackTrace();
                 }
-                else
-                   getMap = "http://localhost:8080/geoserver_war/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";//getFeature;
+                if (e.isShiftDown()) {
+                    getMap =
+                    //"http://localhost:8080/geoserver_war/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-75.05,39.68,-72.91,41.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";//getFeature;
+                    "http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-75.05,39.68,-72.91,41.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";//getFeature;
+                }
+                else {
+                    getMap = "http://192.168.1.80:8180/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&layers=tiger-ny&styles=&bbox=-74.047185,40.679648,-73.907005,40.882078&width=531&height=768&srs=EPSG:4326&format=application/openlayers";
+                    //"http://localhost:8080/geoserver_war/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";//getFeature;
+                    //"http://192.168.1.80:8180/geoserver/wms?request=GetMap&layers=tiger:poly_landmarks&styles=,&bbox=-74.05,40.68,-73.91,40.88&Format=image/png&width=344&height=500&srs=EPSG:4326&FILTER=%3CFilter%3E%3CPropertyIsBetween%3E%3CPropertyName%3Etiger:LAND%3C/PropertyName%3E%3CLowerBoundary%3E%3CLiteral%3E10%3C/Literal%3E%3C/LowerBoundary%3E%3CUpperBoundary%3E%3CLiteral%3E150%3C/Literal%3E%3C/UpperBoundary%3E%3C/PropertyIsBetween%3E%3C/Filter%3E";//getFeature;
+                }
                 work();
                 /*
                 //String urlStr = getFeature;
@@ -123,7 +140,7 @@ public class MapControlGeoServer {
 
                 //Point2D point2d = mv.getUserPoint(endMousePoint.x, endMousePoint.y);
                 //setCenter(point2d.getX(), point2d.getY());
-                run();
+                //run();
             }
 
             @Override
@@ -161,7 +178,7 @@ public class MapControlGeoServer {
                         }
                     }
                     */
-                    run();
+                    //run();
                 }
                 else
                 {
@@ -185,7 +202,7 @@ public class MapControlGeoServer {
                         }
                     }
                     */
-                    run();
+                   // run();
                 }
             }
         });
@@ -196,7 +213,7 @@ public class MapControlGeoServer {
                 if(mapPanel != null) {
                     //mv.setDeviceSize(new Dimension(mapPanel.getWidth(), mapPanel.getHeight()));
                     if(setOutputSize(mapPanel.getWidth(), mapPanel.getHeight()))
-                        run();
+                        ;//run();
                     else
                     {
                         ;
@@ -339,9 +356,9 @@ public class MapControlGeoServer {
             }
 
             mapImage = ImageIO.read(conn.getInputStream());
-            mapPanel.setImage(mapImage);
-
             conn.disconnect();
+            mapPanel.setImage(mapImage);
+            mapPanel.repaint();
 
         } catch (Exception e) {
             //logger.error("Exception: ", ex);

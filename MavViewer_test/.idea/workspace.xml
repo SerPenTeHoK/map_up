@@ -5,7 +5,272 @@
     <bookmark url="file://$PROJECT_DIR$/src/testMa.java" line="36" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d6003c-fcc6-4708-87f7-500aefc87132" name="Default" comment="" />
+    <list default="true" id="e6d6003c-fcc6-4708-87f7-500aefc87132" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/Quickstart.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestGeoTool$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestGeoTool$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestGeoTool$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestGeoTool$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestGeoTool$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestGeoTool.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/WMSLab.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/helpers/proj/CoordArray.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/helpers/proj/GeoServerViewer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/helpers/proj/MapFormats.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/helpers/proj/MapResponse.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/helpers/proj/Proj$P2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/helpers/proj/Proj$util.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/helpers/proj/Proj.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/helpers/proj/ProjAzEd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-13.6-bin.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-13.6-project.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/GeographicLib-Java-1.44.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/ant-1.8.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/batik-transcoder-1.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/bridj-0.6-c-only.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/bufr-4.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/cdm-4.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/common-2.6.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-beanutils-1.7.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-cli-2.0-gt2-pre1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-codec-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-collections-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-dbcp-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-digester-1.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-httpclient-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-io-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-jxpath-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-lang-2.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/commons-pool-1.5.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/core-0.26.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/core.commands-3.6.0.I20100512-1500.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/core.runtime-3.6.0.v20100505.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/eastwood-1.1.1-20090908.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/ecore-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/ehcache-1.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/equinox.common-3.6.0.v20100503.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gdal-1.8.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/geodb-0.7-RC2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/grib-4.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-api-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-app-schema-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-app-schema-resolver-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-arcgrid-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-brewer-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-charts-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-complex-14.2-tests.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-complex-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-coverage-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-coverage-api-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-coveragetools-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-cql-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-css-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-csv-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-data-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-epsg-hsql-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-epsg-wkt-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-feature-aggregate-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-feature-pregeneralized-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-geobuf-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-geojson-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-geometry-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-geopkg-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-geotiff-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-graph-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-grassraster-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-grib-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-grid-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-gtopo30-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-image-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-imageio-ext-gdal-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-imagemosaic-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-imagemosaic-jdbc-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-imagepyramid-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jdbc-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jdbc-db2-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jdbc-h2-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jdbc-mysql-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jdbc-postgis-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jdbc-spatialite-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jdbc-sqlserver-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jdbc-teradata-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jp2k-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-jts-wrapper-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-main-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-matfile5-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-mbtiles-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-metadata-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-mongodb-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-netcdf-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-ogr-bridj-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-ogr-core-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-ogr-jni-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-opengis-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-process-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-process-feature-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-process-geometry-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-process-raster-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-property-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-referencing-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-referencing3D-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-render-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-sample-data-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-sample-data-access-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-sfs-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-shapefile-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-solr-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-svg-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-swing-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-swt-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-transform-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-validation-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-vpf-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-wfs-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-wfs-ng-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-wms-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-wps-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xml-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-core-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-csw-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-fes-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-filter-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-gml2-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-gml3-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-kml-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-ows-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-sld-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-wcs-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-wfs-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-wms-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-xsd-wps-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/h2-1.1.119.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/hsqldb-2.3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/icu4j-3.4.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-arcgrid-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalarcbinarygrid-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdaldted-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalecw-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalecwjp2-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalehdr-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalenvihdr-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalerdasimg-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalidrisi-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalkakadujp2-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalmrsid-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalmrsidjp2-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalnitf-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-gdalrpftoc-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-geocore-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-imagereadmt-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-imagereadmt-1.1M012010.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-kakadu-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-mat-sas-1.1M012010.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-streams-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-tiff-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-utilities-1.1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jai_codec-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jai_core-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jai_imageio-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/javacsv-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jdom-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jface-3.6.1.M20100825-0800.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jgridshift-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/json-simple-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jsqlparser-0.3.14.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jsr-275-1.0-beta-2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-affine-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-algebra-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-bandcombine-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-bandmerge-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-bandselect-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-binarize-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-border-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-buffer-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-classifier-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-colorconvert-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-colorindexer-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-contour-1.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-crop-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-errordiffusion-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-format-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-imagefunction-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-lookup-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-mosaic-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-nullop-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-orderdither-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-piecewise-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-rangelookup-1.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-rescale-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-rlookup-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-stats-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-utils-1.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-vectorbin-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-vectorbinarize-1.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-vectorize-1.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-warp-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-zonal-1.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jt-zonalstats-1.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jtds-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/jts-1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/log4j-over-slf4j-1.6.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/miglayout-3.7-swing.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/mongo-java-driver-2.11.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/mysql-connector-java-5.1.17.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/net.opengis.csw-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/net.opengis.fes-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/net.opengis.ows-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/net.opengis.wcs-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/net.opengis.wfs-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/net.opengis.wps-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/netcdf4-4.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/opendap-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/org.w3.xlink-14.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/parboiled-java-1.1.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/picocontainer-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/postgresql-9.4-1201-jdbc41.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/protobuf-java-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/slf4j-log4j12-1.6.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/solr-solrj-4.9.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/spatialite-jdbc-3.7.2-2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/sqlite-jdbc-3.8.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/swt.gtk.linux.x86-3.6.1.v3655c.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/swt.win32.win32.x86_64-3.6.1.v3655c.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/ui.workbench-3.6.1.M20100826-1330.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/xml-commons-resolver-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/xmlunit-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/xpp3_min-1.1.4c.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/xsd-2.6.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ant_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/openLayers3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GeoToolGeoServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Quickstart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGeoTool.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGeoTool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WMSLab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/proj/CoordArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/proj/GeoServerViewer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/proj/MapFormats.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/proj/MapResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/proj/Proj.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/proj/ProjAzEd.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openLayers3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/MapControlGeoServer$1.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/MapControlGeoServer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/MapControlGeoServer$2.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/MapControlGeoServer$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/MapControlGeoServer$3.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/MapControlGeoServer$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/MapControlGeoServer.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/MapControlGeoServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$1.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$2.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$3.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$4.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$5.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer.class" afterPath="$PROJECT_DIR$/out/production/MavViewer_test/TestMapGeoServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MavViewer_test.iml" afterPath="$PROJECT_DIR$/MavViewer_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MapControlGeoServer.java" afterPath="$PROJECT_DIR$/src/MapControlGeoServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestMapGeoServer.java" afterPath="$PROJECT_DIR$/src/TestMapGeoServer.java" />
+    </list>
     <ignored path="MavViewer_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,96 +292,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestMapGeoServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestMapGeoServer.java">
+      <file leaf-file-name="WMSLab.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WMSLab.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapControlGeoServer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MapControlGeoServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8884181">
-              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-              <folding>
-                <element signature="e#6645#6646#0" expanded="true" />
-                <element signature="e#6707#6708#0" expanded="true" />
-                <element signature="e#7258#9370#0" expanded="true" />
-                <element signature="e#9369#9370#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapControl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MapControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#mouseEntered#0;class#1528:2277" expanded="false" />
-                <element signature="method#mouseExited#0;class#1528:2277" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapViewer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/lbs/mapclient/MapViewer.class">
+      <file leaf-file-name="GeoToolGeoServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GeoToolGeoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.814816">
-              <caret line="2013" column="21" selection-start-line="2013" selection-start-column="21" selection-end-line="2013" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapResponse.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/lbs/mapcommon/MapResponse.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.407408">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-              <folding>
-                <element signature="e#2077#2078#0" expanded="true" />
-                <element signature="e#2109#2110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientMapRequest.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/lbs/mapclient/ClientMapRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.740741">
-              <caret line="256" column="21" selection-start-line="256" selection-start-column="21" selection-end-line="256" selection-end-column="21" />
-              <folding>
-                <element signature="e#7628#7629#0" expanded="true" />
-                <element signature="e#7666#7667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjAzEd.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/sdovis/ProjAzEd.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.037037">
-              <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Proj.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/sdovis/Proj.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.259259">
-              <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.25304466">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -127,6 +319,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -159,11 +353,24 @@
         <option value="$PROJECT_DIR$/src/testMa.java" />
         <option value="$PROJECT_DIR$/src/imageTest.java" />
         <option value="$PROJECT_DIR$/src/TestMapGeoServer.form" />
-        <option value="$PROJECT_DIR$/src/TestMapGeoServer.java" />
         <option value="$PROJECT_DIR$/src/JDOMBuilder.java" />
         <option value="C:/Program Files (x86)/Java/jdk1.7.0_67/src.zip!/java/awt/geom/Point2D.java" />
         <option value="C:/Program Files (x86)/Java/jdk1.7.0_67/src.zip!/java/awt/geom/AffineTransform.java" />
+        <option value="$PROJECT_DIR$/src/helpers/proj/Proj.java" />
+        <option value="$PROJECT_DIR$/src/helpers/proj/CoordArray.java" />
+        <option value="$PROJECT_DIR$/src/helpers/proj/ProjAzEd.java" />
+        <option value="$PROJECT_DIR$/src/helpers/proj/MapFormats.java" />
+        <option value="$PROJECT_DIR$/src/helpers/proj/MapResponse.java" />
+        <option value="$PROJECT_DIR$/src/TestMapGeoServer.java" />
+        <option value="$PROJECT_DIR$/src/helpers/proj/GeoServerViewer.java" />
+        <option value="$PROJECT_DIR$/src/openLayers3.js" />
         <option value="$PROJECT_DIR$/src/MapControlGeoServer.java" />
+        <option value="$PROJECT_DIR$/src/TestGeoTool.java" />
+        <option value="$PROJECT_DIR$/src/TestGeoTool.form" />
+        <option value="$PROJECT_DIR$/src/Quickstart.java" />
+        <option value="$PROJECT_DIR$/src/GeoToolQuickstart1.java" />
+        <option value="$PROJECT_DIR$/src/WMSLab.java" />
+        <option value="$PROJECT_DIR$/src/GeoToolGeoServer.java" />
       </list>
     </option>
   </component>
@@ -175,8 +382,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -222,9 +429,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,50 +440,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -305,88 +466,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapeditor.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapeditor.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oracle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapeditor.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oracle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdovis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MavViewer_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,7 +486,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../geotools-15-M0/xsd-2.6.0.jar!/" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
@@ -416,22 +499,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMapGeoServer">
-    <configuration default="false" name="imageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="imageTest" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MavViewer_test" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.WMSLab">
     <configuration default="false" name="TestGeoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestGeoServer" />
@@ -450,6 +518,51 @@
     <configuration default="false" name="TestMapGeoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestMapGeoServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MavViewer_test" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestGeoTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestGeoTool" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MavViewer_test" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Quickstart" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MavViewer_test" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WMSLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="WMSLab" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -781,18 +894,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
@@ -802,6 +903,36 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -899,6 +1030,21 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="test" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="test" />
@@ -944,19 +1090,23 @@
       <envs />
       <method />
     </configuration>
-    <list size="6">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Application.test" />
       <item index="1" class="java.lang.String" itemvalue="Application.Unnamed" />
       <item index="2" class="java.lang.String" itemvalue="Application.Unnamed (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.imageTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestGeoServer" />
-      <item index="5" class="java.lang.String" itemvalue="Application.TestMapGeoServer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestGeoServer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestMapGeoServer" />
+      <item index="5" class="java.lang.String" itemvalue="Application.TestGeoTool" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Quickstart" />
+      <item index="7" class="java.lang.String" itemvalue="Application.WMSLab" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestMapGeoServer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestGeoServer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.imageTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.WMSLab" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Quickstart" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestGeoTool" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestGeoServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestMapGeoServer" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -990,40 +1140,42 @@
       <workItem from="1456177427213" duration="6285000" />
       <workItem from="1456242158395" duration="2732000" />
       <workItem from="1456298333796" duration="8426000" />
+      <workItem from="1456338312115" duration="10541000" />
+      <workItem from="1456349472165" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89506000" />
+    <option name="totallyTimeSpent" value="100081000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32146204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.153125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.270625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31021556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32073012" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32724902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285528" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46023467" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1040,13 +1192,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test.java</url>
           <line>109</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test.java</url>
           <line>33</line>
           <properties />
@@ -1058,24 +1210,40 @@
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/imageTest.java</url>
           <line>98</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/MapControlGeoServer.java</url>
-          <line>141</line>
+          <line>158</line>
           <properties />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../geotools-13.6-bin/geotools-13.6/gt-referencing-13.6.jar!/org/geotools/referencing/factory/epsg/ThreadedEpsgFactory.class</url>
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WMSLab.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="100" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="117" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="sb" language="JAVA" custom="" />
+        <watch expression="conn.getInputStream()" language="JAVA" custom="" />
       </configuration>
     </watches-manager>
   </component>
@@ -1084,492 +1252,132 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test_map.form">
+    <entry file="file://$PROJECT_DIR$/src/WMSLab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MapControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#mouseEntered#0;class#1528:2277" expanded="false" />
-            <element signature="method#mouseExited#0;class#1528:2277" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImagePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/imageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="27" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testMa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4397#4857#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testMa.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_map.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MapControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#mouseEntered#0;class#1528:2277" expanded="false" />
-            <element signature="method#mouseExited#0;class#1528:2277" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImagePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/imageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="27" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MapControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#mouseEntered#0;class#1528:2277" expanded="false" />
-            <element signature="method#mouseExited#0;class#1528:2277" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/imageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="16" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.form">
+    <entry file="file://$PROJECT_DIR$/src/GeoToolGeoServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImagePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/lbs/mapclient/MapViewer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2841" column="9" selection-start-line="2841" selection-start-column="9" selection-end-line="2841" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/lbs/mapclient/MapViewer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2841" column="9" selection-start-line="2841" selection-start-column="9" selection-end-line="2841" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/lbs/mapclient/MapViewer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/work.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9434276">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_map.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4877651">
-          <caret line="48" column="112" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="112" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/working">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27895597">
-          <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26936027">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestMapGeoServer.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testMa.form">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGeoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6280992">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="e#3176#3177#0" expanded="false" />
-            <element signature="e#3219#3220#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImagePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27272728">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/imageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8264463">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testMa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28099173">
-          <caret line="45" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4397#4857#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JDOMBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3228477">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestMapGeoServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="38" />
-          <folding />
+          <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_67/src.zip!/java/awt/geom/AffineTransform.java">
+    <entry file="file://$PROJECT_DIR$/src/TestGeoTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="2872" column="19" selection-start-line="2872" selection-start-column="19" selection-end-line="2872" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.57253885">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_67/src.zip!/java/awt/geom/Point2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_67/src.zip!/java/awt/geom/AffineTransform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="2872" column="19" selection-start-line="2872" selection-start-column="19" selection-end-line="2872" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/sdovis/Proj.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.259259">
-          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/lbs/mapcommon/MapResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.407408">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-          <folding>
-            <element signature="e#2077#2078#0" expanded="true" />
-            <element signature="e#2109#2110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/lbs/mapclient/MapViewer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.814816">
-          <caret line="2013" column="21" selection-start-line="2013" selection-start-column="21" selection-end-line="2013" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/sdovis/ProjAzEd.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.037037">
-          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/lbs/mapclient/ClientMapRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.740741">
-          <caret line="256" column="21" selection-start-line="256" selection-start-column="21" selection-end-line="256" selection-end-column="21" />
-          <folding>
-            <element signature="e#7628#7629#0" expanded="true" />
-            <element signature="e#7666#7667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MapControl.java">
+    <entry file="file://$PROJECT_DIR$/src/Quickstart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#mouseEntered#0;class#1528:2277" expanded="false" />
-            <element signature="method#mouseExited#0;class#1528:2277" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1081#1096#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/javax/imageio/spi/ServiceRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="507" column="0" selection-start-line="507" selection-start-column="0" selection-end-line="507" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MapControlGeoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8884181">
-          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51554406">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-referencing-14.2.jar!/org/geotools/referencing/factory/epsg/ThreadedEpsgFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.148148">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-imagereadmt-1.1M012010.jar!/META-INF/registryFile.jai">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/imageio-ext-imagereadmt-1.1.13.jar!/META-INF/registryFile.jai">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-metadata-14.2.jar!/org/geotools/factory/FactoryRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42618385">
+          <caret line="488" column="0" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geotools-14.2-bin/geotools-14.2/gt-referencing-14.2.jar!/org/geotools/referencing/factory/epsg/DefaultFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37883008">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mapeditor.jar!/oracle/maps/core/LayerManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04775281">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WMSLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#6645#6646#0" expanded="true" />
-            <element signature="e#6707#6708#0" expanded="true" />
-            <element signature="e#7258#9370#0" expanded="true" />
-            <element signature="e#9369#9370#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeoToolGeoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25304466">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1638,7 +1446,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jdom-1.1</last-edited>
+          <last-edited>mapeditor</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
